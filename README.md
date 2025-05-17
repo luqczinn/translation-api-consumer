@@ -34,3 +34,35 @@ cd translation-api-consumer
 2. Execute a aplicação.
 
 A aplicação estará disponível em: [http://localhost:8080](http://localhost:8080/swagger-ui/index.html)
+
+3. Desfrute da aplicação!
+
+## 📌 Exemplos de Uso
+
+### 🔄 POST /translations
+Traduz e salva um texto:
+
+Body JSON (exemplo):
+```
+{
+  "text": "Olá, eu sou o Lucas!",
+  "type": "minion"
+}
+```
+Os valores válidos para type são: "minion" ou "yoda"
+
+### 📋 GET /translations
+Lista todas as traduções armazenadas.
+
+### 🔍 GET /translations/{id}
+Busca uma tradução específica pelo ID.
+
+### ❌ DELETE /translations/{id}
+Remove uma tradução do banco.
+
+
+## 📌 Observações
+A FunTranslations possui um limite de uso gratuito por hora. Caso exceda, você pode receber erro 429 (Too Many Requests).
+
+## ✍️ Autor
+Desenvolvido por Lucas Silva 🚀
