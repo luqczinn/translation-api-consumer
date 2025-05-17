@@ -7,11 +7,9 @@ Este projeto é uma aplicação Java com Spring Boot que consome a [FunTranslati
 ## 🚀 Tecnologias Utilizadas
 
 - Java 17
-- Spring Boot
-- Spring Web
-- Spring Data JPA
+- Spring Boot, Web e Data JPA
 - FeignClient
-- H2 Database (in-memory)
+- H2 Database (em memória)
 - Swagger (Springdoc OpenAPI)
 
 ---
